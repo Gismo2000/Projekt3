@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  /* это сброс всех отступов */
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  
+}
+
+header {
+  background-color: #ffffff;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+line-height: normal;
+font-weight: 800;
+font-variant: all-small-caps;
+letter-spacing: 2.28px;
+}
+
+.aa{
+  text-decoration: none;
+  color: #FFF;
+font-size: 19px;
+font-weight: 800;
+letter-spacing: 2.28px;
+}
+ul{
+  list-style: none;
+}
+button{
+  
+  cursor: pointer;
+  border: none;
+}
+
+.header-kontainer{
+  color: #ffffff;
+  background-color: black;
+  /* height: 100%; */
+}
+
+.header-kontainer ul{
+  /* min-height: ; */
+  display: flex; 
+  justify-content: space-around;
+  align-items: center; 
+  padding: 32px 0px 24px 0px;
+  flex-wrap: wrap;  /* perenosit dannie pri sjatii ekrana*/
+  /* flex-direction: column; - rovnyaet w stolbik */
+}
+.header-kontainer li {
+  cursor: pointer; /* Задаем указатель при наведении на кнопки */
+}
+
+
+/* 
+gap:20px; otstupi mejdu Slovami ili blikami d hedere
+flex-direction: column; - rovnyaet w stolbik
+  */
+
+  /* main */
+  .main-section{
+    padding: 5% 10%;
+    /* height: 100vh; */
+background: url(./images/hero-img.webp);
+background-size: cover;
+
+  }
+
+  .section-container{
+    padding: 50px;
+    background: #000000;
+    color: #ffffff;
+  }
+
+  .section-container h1{
+    color: #FD7D54; 
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 19.2px;
+    margin-bottom: 18px;
+
+  }
+
+  .section-container p{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #FFF;
+
+
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+  .card-container{
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+    
+    /* background-color: aqua;
+align-items: center; */
+
+  }
+
+  .card{
+    padding: 30px;
+border: 1px solid rgb(255, 255, 255);
+max-width: 293px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+  }
+
+  .card h2{
+    font-size: 27px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+font-variant: all-small-caps;
+letter-spacing: 3.24px;
+  }
+
+  .card p{
+    width: 227px;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; 
+letter-spacing: 0.54px;
+  }
+
+  .card button{
+    background: #000000;
+    color: #41C3F6;
+text-align: center;
+font-size: 19px;
+font-weight: 800;
+font-variant: all-small-caps;
+letter-spacing: 2.28px;
+  }
+
+
+  .footer{
+    padding: 16px 0px 8px 0px;
+    width: 100%;
+    background: #000000;
+
+  }
+
+  .footer h3{
+    color: #FFF;
+text-align: center;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 1.2px;
+  }
